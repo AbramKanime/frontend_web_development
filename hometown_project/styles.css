@@ -15,49 +15,38 @@ body {
     color: #1D3557;
     background: A8DADC;
     width: 100%;
-    height: 100%;
 }
 
-.sites {
-    width: 100px;
+.img-site {
+    width: 120px;
     height: 100px;
     border: 2px solid #457B9D;
-    border-radius: 50%;
+    border-radius: 30%;
 }
 
 #background {
-    background-image: url("https://www.nairaland.com/attachments/14836802_66d43523af154b919945f58b9f282683_jpeg_jpega7ba3b97fc7d0c5735f9b0ea29fc3466");
+    background-image: url("images/park.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#header1, #header2 {
+#hero-title1, #hero-title2 {
     background: #F1FAEE;
 }
 
-#header1 {
+#hero-title1 {
     padding: 3px 10px;
     border-radius: 5px;
     margin: 100px 0 10px;
 }
 
-#header2 {
+#hero-title2 {
     padding: 5px 15px;
     border-radius: 10px;
     width: 350px;
     margin: 10px 0 100px;
-}
-
-#header2:hover {
-    font-size: 120%;
-    background: #D3D3D3;
-}
-
-#header1:hover {
-    font-size: 170%;
-    background: #D3D3D3;
 }
 
 .activities {
@@ -66,14 +55,15 @@ body {
     justify-content: center;
 }
 
-#header-activity {
-    text-decoration: underline;
+#activity-header {
+    font-size: 1.3rem;
 }
 
-.act {
+.sections {
     margin: 10px 20px;
     padding: 10px 5px;
     width: 300px;
+    border-radius: 10px;
 }
 
 #picture {
@@ -91,14 +81,18 @@ body {
     border-bottom: 5px solid #404E7C
 }
 
-.act:hover {
-    font-size: 120%;
+.sections:hover {
     background: #D3D3D3;
+}
+
+h4 {
+    font-size: 1.2rem;
 }
 
 #name {
     margin: 5px 0;
 }
+
 #footer {
     font-style: italic;
     margin: 0 0 10px;
