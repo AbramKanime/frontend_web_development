@@ -1,7 +1,7 @@
 body {
     margin: 0;
     position: relative;
-    width: 600px;
+    width: 100%;
     height: 1161px;
     background: #FFFFFF;
     font-family: 'Smythe', cursive;
@@ -18,7 +18,7 @@ header{
 }
 
 main{
-    width: 508px;
+    width: 100%;
     margin: 0 45px;
 }
 
