@@ -74,6 +74,7 @@ p{
 .add-btn{
     background: #FFFFFF;
     border: 1px solid lightgrey;
+    font-size: 20px;
     border-radius: 50%;
     cursor: pointer;
     width: 50px;
