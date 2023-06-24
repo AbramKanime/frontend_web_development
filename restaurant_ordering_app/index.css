@@ -1,11 +1,12 @@
 body {
     margin: 0;
     position: relative;
-    width: 600px;
+    width: 580px;
     height: 1161px;
     background: #FFFFFF;
     font-family: 'Smythe', cursive;
     color: #000000;
+    user-select: none;
 }
 
 header{
