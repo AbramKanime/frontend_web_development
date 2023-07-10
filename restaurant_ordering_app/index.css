@@ -19,7 +19,7 @@ header{
 }
 
 main{
-    width: 400px;
+    width: 508px;
     margin: 0 45px;
 }
 
@@ -96,9 +96,9 @@ p{
 
 .complete-order-btn{
     color: white;
-    width: 400px;
-    padding: 18px 120px 18px 120px;
-    text-align: center;
+    width: 508px;
+    padding: 18px 175px 18px 194px;
+    align-items: center;
     background: #16DB99;
     border: none;
     border-radius: 3px;
@@ -159,7 +159,7 @@ button{
     left: 0;
     margin: auto;
     height: 542px;
-    width: 400px;
+    width: 524px;
     border-radius: 4px;
     box-shadow: 0px 0px 60px 10px #666;
     background-color: #FFFFFF;
@@ -186,19 +186,7 @@ input{
     border: 1px solid #757575;
     padding: 15px 25px;
     border-radius: 5px;
-    width: 350px;
+    width: 476px;
     height: 71px;
     box-sizing: border-box;
-}
-
-@media (min-width: 768px){
-    body, header {
-        width: 100%;
-        max-width: 600px;
-    }
-    
-    main {
-        width: 100%;
-        max-width: 500px;
-    }
 }

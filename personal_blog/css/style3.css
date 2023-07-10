@@ -1,0 +1,43 @@
+@import "css/style2.css";
+
+#author-img {
+    width: 11.375rem;
+    border-radius: 50%;
+}
+
+body {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.introduction {
+    margin: 1em 0;
+    letter-spacing: -0.0653rem;
+    font-weight: 700;
+    font-size: 2.125rem;
+}
+
+/* Media query */
+@media (min-width: 768px) {
+    #intro, #blog {
+        min-width: 600px;
+        max-width: 800px;
+    }
+    
+    div {
+        width: 100%;
+    }
+    
+    #blog {
+        padding: 2em;
+    }
+    
+    #intro {
+        display: flex;
+        gap: 0.625em;
+        align-items: center; 
+    }
+    
+    #intro-2 {
+        padding: 2em;
+    }
+}
