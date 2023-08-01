@@ -121,8 +121,8 @@ section {
 
 .section-1 {
     width: 100%;
-    /* background: grey; */
     background-image: url("images/pic-5.jpg");
+    /* background: grey; */
     background-size: cover;
     color: #FFFFFF;
     text-shadow: 0 0 2px black;
@@ -208,7 +208,6 @@ footer p {
         grid-template: auto auto / repeat(3, minmax(200, 250));
         padding: 0 1em;
         grid-gap: 1em;
-        margin: 0 59px auto auto;
     }
     
     #blog-1 {
