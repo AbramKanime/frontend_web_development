@@ -121,8 +121,8 @@ section {
 
 .section-1 {
     width: 100%;
-    background-image: url("images/pic-5.jpg");
-    /* background: grey; */
+    background-image: url("./images/pic-5.jpg");
+    background: grey;
     background-size: cover;
     color: #FFFFFF;
     text-shadow: 0 0 2px black;
